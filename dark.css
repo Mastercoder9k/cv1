@@ -1,0 +1,503 @@
+html{
+    scroll-behavior: smooth;
+    background-color: #131638;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #131638;
+    height: 50%;
+}
+.nav {
+    background-color: #1b204f;
+    overflow: hidden;
+    width: 100%;
+    height: 400px;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.språk{
+    float: left;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.språk a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 20px;
+    margin-left: 30px;
+}
+
+.språk a:hover{
+    color: #6131f1;
+}
+
+.dark{
+    float:right;
+    margin-right: 20px;
+    margin-top:20px;
+}
+
+.dark a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 20px;
+    margin-left: 30px;
+}
+
+.dark a:hover{
+    color: #440ceccf;
+}
+.custom-shape-divider-top-1742841996 {
+    position: absolute;
+    top: 400px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1742841996 svg {
+    position: relative;
+    display: block;
+    width: calc(109% + 1.3px);
+    height: 209px;
+}
+
+.custom-shape-divider-top-1742841996 .shape-fill {
+    fill: #1b204f;
+}
+
+.name h1{
+    font-family: 'Poppins', sans-serif;
+    color:white;
+    font-size: 50px;
+    text-align: center;
+    margin-top:200px;
+    font-weight:0;
+    transition: font-size 0.5s;
+    letter-spacing: 10px;
+}
+
+.name h1:hover{
+    font-size: 60px;
+}
+.stilling h2{
+    font-family: 'Poppins', sans-serif;
+    color:white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0;
+    letter-spacing: 2px;
+}
+
+main{
+    font-family: 'Poppins', sans-serif; 
+    border-radius: 20px;
+}
+
+.profil{
+    margin-top: 24%;
+    width: 53%;
+    margin-left: 10px;
+    background-color: #1b204f;
+    height: 50%;
+    border-radius: 20px; 
+    transition: 0.5s;
+}
+
+.profil:hover{
+    box-shadow: 0px 0px 10px 0px #ffffff;
+}
+
+
+.navn{
+    font-family: 'Poppins', sans-serif;
+    padding: 0px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    margin-top: -9px;
+    font-size: 30px;
+    color: #ffffffcf;
+    margin-left: 20px;
+}
+
+.profiltekst{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: -10%;
+    padding: 10px;
+    margin-left: 10px;
+   word-spacing: 1px;
+   letter-spacing: 2px; 
+   font-size: 19px;
+   line-height:1.5;
+   font-weight: 100px;
+}
+
+.hobby{
+    margin-top: 5px;
+    padding: 10px;
+    margin-left: 52.5%;
+    border: 0px solid #000000cf;
+    height: 315px;
+    width: 45%;
+    background-color: #1b204f;
+    border-radius: 20px;
+    margin-bottom: 10%;
+    transition: 0.5s; 
+}
+
+.hobby:hover{
+    box-shadow: 0px 0px 10px 0px #ffffff;
+}
+
+.hobby h1   {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    text-align: left;
+    margin-top: 0;
+    letter-spacing: 2px;
+    margin-left: 20px;
+}
+
+.hobbytekst{
+    color: white;
+    margin-top: -8%;
+    padding: 10px;
+    margin-left: 10px;
+    word-spacing: 1px;
+    letter-spacing: 2px; 
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+
+}
+
+
+.utdanning{
+    margin-top: 5px;
+}
+
+.utdanning h1{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+.vesong{
+    margin-top: 5px;
+    padding: 10px;
+    margin-left:10px;
+    border: 0px solid #000000cf;
+    height: 280px;
+    width: 75%;
+    background-color: #1b204f;
+    border-radius: 20px;
+    margin-bottom: 10%;
+    transition: 0.5s;
+}
+
+.vesong:hover{
+    box-shadow: 0px 0px 10px 0px #ffffff;
+}
+
+.vesong h2{
+    color: white;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+}
+
+.vesongtid h2{
+    color: white;
+    text-align: right;
+    margin-top: -70px;
+    margin-right: 10px;
+}
+
+.vesongtekst p{
+    color: white;
+    margin-top: -2%;
+    padding: 10px;
+    margin-left: 10px;
+    word-spacing: 1px;
+    letter-spacing: 2px; 
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    font-size: 23px;
+}
+
+.jesvgs{
+    margin-top: -9%;
+    padding: 10px;
+    margin-left:280px;
+    border: 0px solid #000000cf;
+    height: 270px;
+    width: 75%;
+    background-color: #1b204f;
+    border-radius: 20px;
+    margin-bottom: 10%;
+   transition: 0.5s; 
+}
+
+.jesvgs:hover{
+    box-shadow: 0px 0px 10px 0px #ffffff;
+}
+
+.jesvgs h2{
+    padding: 5px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    margin-top: 0;
+    letter-spacing: 2px;
+}
+
+.jesstid h2{
+
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color: white;
+    text-align: right;
+    margin-top: -8.5%;
+}
+
+.jesvgs p{
+    margin-top: -4%;
+    color: white;
+    padding: 10px;
+    word-spacing: 1px;
+    letter-spacing: 2px; 
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    font-size: 23px;
+}     
+
+.erfaring h1{
+    font-size: 40px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-top: 0;
+    letter-spacing: 2px;
+}
+
+
+.sportica{
+    width: 40%;
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+    border: 0px solid #00000000;
+    height: 281px;
+    background-color: #1b204f;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px #1b204f;
+    transition: 0.5s;
+}
+
+.sportica:hover{
+    box-shadow: 0px 0px 10px 0px #ffffff;
+}
+.sportica h2{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.sportica p{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    margin-top: -2%;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+
+.ulk{
+    width: 40%;
+    float: right;
+    align-self: right;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: -590px;
+    border: 0px solid #00000000;
+    height: 281px;
+    background-color: #1b204f;
+    box-shadow: 0px 0px 10px 0px #1b204f;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.ulk:hover{
+    box-shadow: 0px 0px 10px 0px #ffffff;
+}
+.ulk h2{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.ulk p{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    margin-top: -2%;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 17px;
+}
+
+
+.normal{
+    width: 40%;
+    float: center;
+    margin-left: 30%;
+    margin-top: 27%;
+    border: 0px solid #00000000;
+    height: 280px;
+    background-color: #1b204f;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px #1b204f;
+    transition: 0.5s;
+}
+.normal:hover{
+    box-shadow: 0px 0px 10px 0px #ffffff;
+}
+.normal h2{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.normal p{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    margin-top: -2%;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 19px;
+}
+
+.kontakt h1{
+    font-size: 40px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-top: 15%;
+    letter-spacing: 2px;
+}
+
+.email  a img{
+    width: 10%;
+    height: 10%;
+    margin-left: 200px;
+    margin-top:10%;
+}
+
+.email  a img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.email p{
+    font-family:'Poppins', sans-serif;
+    color: white;
+    margin-top: 2%;
+    line-height: 1.5;
+    margin-left: 150px;
+    letter-spacing: 2px;
+    font-size: 19px;
+    margin-left: 100px;
+}
+.insta a img {
+    width: 9%;
+    height: 9%;
+    margin-left: 47%;
+    margin-top: -200px;
+    display: block; 
+}
+
+.insta a img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.insta p{
+    font-family:'Poppins', sans-serif;
+    color: white;
+    margin-top: 3%;
+    line-height: 1.5;
+    margin-left: 150px;
+    letter-spacing: 2px;
+    font-size: 19px;
+    margin-left: 550px;
+}
+
+.facebook a img{
+    width: 9%;
+    height: 9%;
+    float: right;
+    margin-top: -150px;
+    margin-right: 200px;
+    display: block; 
+}
+
+.facebook a img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.facebook p{
+    font-family:'Poppins', sans-serif;
+    color: white;
+    margin-top: -48px;
+    letter-spacing: 2px;
+    font-size: 19px;
+    margin-left: 73%;
+
+}
+
+.footer{
+    background-color: #1b204f;
+    height: 100px;
+    width: 100%;
+    margin-top: 20%;
+    border-radius: 0px;
+    margin-bottom: 0px;
+}
+
+.footer h2{
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 5%;
+    letter-spacing: 2px;
+}
+
+.footer p{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-top: -2%;
+    letter-spacing: 2px;
+}
